@@ -18,22 +18,23 @@ static int showbar                       = 1;        /* 0 means no bar */
 static int topbar                        = 1;        /* 0 means bottom bar */
 static char font[]                       = "JetBrains Mono:size=10";
 static char dmenufont[]                  = "JetBrains Mono:style=bold:size=10";
-static const char *fonts[]               = { font, "Font Awesome:size=12", "Noto Color Emoji:size=10" };
-static char normbgcolor[]                = "#222222";
-static char normbordercolor[]            = "#444444";
-static char normfgcolor[]                = "#bbbbbb";
-static char selfgcolor[]                 = "#eeeeee";
-static char selbordercolor[]             = "#770000";
-static char selbgcolor[]                 = "#005577";
-static char seltitlecolor[]              = "#ffffff";
-static char selwhite[]                   = "#ffffff";
-static char selblue[]                    = "#0000ff";
+static const char *fonts[]               = { font, "Font Awesome:size=12", "Noto Color Emoji:size=10", "JetBrains Mono Nerd Font:size=12" };
+static char normbgcolor[]                = "#000000"; /*(black)*/
+static char normbordercolor[]            = "#00d59b"; /*(cyan green)*/
+static char normfgcolor[]                = "#bbbbbb"; /*(greyish white)*/
+static char selfgcolor[]                 = "#00d59b"; /*(cyan green)*/
+static char selbordercolor[]             = "#770000"; /*(deep red)*/
+static char selbgcolor[]                 = "#000000"; /*(black)*/
+static char seltitlecolor[]              = "#00d59b"; /*(cyan green)*/
+static char selwhite[]                   = "#ffffff"; /*(white)*/
+static char selblue[]                    = "#0000ff"; /*(white)*/
 static char *colors[][4] = {
         /*                 fg             bg            border           float */
         [SchemeNorm]   = { normfgcolor,   normbgcolor,  normbordercolor, selwhite },
         [SchemeSel]    = { selfgcolor,    selbgcolor,   selbordercolor,  selblue  },
         [SchemeTitle]  = { seltitlecolor, normbgcolor,  selbordercolor  },
 };
+
 
 /* sticky indicator icon */
 static const XPoint stickyicon[]    = { {0,0}, {4,0}, {4,8}, {2,6}, {0,8}, {0,0} }; /* represents the icon as an array of vertices */

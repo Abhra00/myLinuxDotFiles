@@ -8,7 +8,7 @@ elif [ "$(cat /sys/class/net/w*/operstate 2>/dev/null)" = 'down' ] ; then
 fi
 
 # Ethernet
-[ "$(cat /sys/class/net/e*/operstate 2>/dev/null)" = 'up' ] && ethericon="󰈁" || ethericon="󰈂"
+[ "$(cat /sys/class/net/e*/operstate 2>/dev/null)" = 'up' ] && ethericon=" 󰈁" || ethericon=" 󰈂"
 
 # TUN
 #[ -n "$(cat /sys/class/net/tun*/operstate 2>/dev/null)" ] && tunicon=" "

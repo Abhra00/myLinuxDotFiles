@@ -112,7 +112,7 @@ float alphaOffset = 0.0;
 float alphaUnfocus;
 
 /* Including them from themes directory */
-#include "/home/bugs/.config/suckless/st/themes/base16-irblack-theme.h"
+#include "/home/bugs/.config/suckless/st-0.9/themes/base16-irblack-theme.h"
 unsigned int background = 0;
 /*
  * Default shape of cursor

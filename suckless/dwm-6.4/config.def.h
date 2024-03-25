@@ -115,6 +115,7 @@ ResourcePref resources[] = {
                 { "color4",             STRING,  &normfgcolor },
                 { "color0",             STRING,  &selfgcolor },
                 { "color4",             STRING,  &selbgcolor },
+		{ "color1",		STRING,	 &seltitlecolor },
                 { "borderpx",           INTEGER, &borderpx },
                 { "snap",               INTEGER, &snap },
                 { "showbar",            INTEGER, &showbar },

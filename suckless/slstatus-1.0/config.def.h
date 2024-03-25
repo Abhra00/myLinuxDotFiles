@@ -70,6 +70,6 @@ static const struct arg args[] = {
         { run_command, "^c#cc241d^%s  ",           "~/.config/suckless/slstatus-1.0/scripts/volume" },
         { run_command, "^c#689d6a^%s  ",           "~/.config/suckless/slstatus-1.0/scripts/date" },
         { run_command, "^c#b16286^%s  ",           "~/.config/suckless/slstatus-1.0/scripts/clock" },
-        { run_command, "^c#d3869b^%s",             "~/.config/suckless/slstatus-1.0/scripts/internet" },
+        { run_command, "^c#ebdbb2^%s",             "~/.config/suckless/slstatus-1.0/scripts/internet" },
 
 };

@@ -152,7 +152,7 @@ ResourcePref resources[] = {
 /* commands */
 static const char *dmenucmd[] = { "dmenu_run", "-fn", dmenufont, "-nb", normbgcolor, "-nf", normfgcolor, "-sb", selbgcolor, "-sf", selfgcolor, "-p", "Run:", NULL };
 static const char *termcmd[]  = { "st", NULL };
-static const char *pmenucmd[]  = { "/home/bugs/myLinuxDotFiles/suckless/dwm-6.4/scripts/pmenu", NULL };
+static const char *pmenucmd[]  = { "/home/bugs/.config/suckless/dwm-6.4/scripts/pmenu", NULL };
 
 /* volume controls */
 static const char *upvol[]   = { "/usr/bin/pactl", "set-sink-volume", "@DEFAULT_SINK@", "+5%", NULL };

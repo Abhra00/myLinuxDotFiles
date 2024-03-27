@@ -70,5 +70,5 @@ static const struct arg args[] = {
 	{ run_command, "%s  ",           "~/.config/suckless/slstatus-1.0/scripts/volume" },
 	{ run_command, "%s  ",           "~/.config/suckless/slstatus-1.0/scripts/date" },
 	{ run_command, "%s  ",           "~/.config/suckless/slstatus-1.0/scripts/clock" },
-	{ run_command, "%s  ",           "~/.config/suckless/slstatus-1.0/scripts/internet" },
+	{ run_command, "%s",             "~/.config/suckless/slstatus-1.0/scripts/internet" },
 };
